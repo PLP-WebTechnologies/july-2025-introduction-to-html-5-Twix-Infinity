@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is an assingnment that I did after learning Introduction to HTML.">
+        <meta charset="UTF-8">
+        <body style="background-color: blanchedalmond;">
+        <title>Introduction To HTML</title>
+    </head>
+
+    <body>
+        <h1>Intro to HTML</h1>
+
+        <p>
+            <b>HTML</b>, or <b>HyperText Markup Language</b>, is the foundational language for creating web pages. 
+            It provides the structure and content of a webpage using a system of tags that define elements like:
+            <ul>
+                <li>Headings</li>
+                <li>Paragraphs</li>
+                <li>Images</li>
+                <li>Links</li>
+            </ul> 
+            Browsers interpret this markup to display the content in a human-readable format, making HTML essential for building the web as we know it.
+        </p>
+        
+        <h1>Registration Form</h1>
+        <h2>Please fill the registration form below:</h2>
+
+        <p><b>*P.S:</b> Please start the pone number column with your country code.</p>
+
+        <form action="submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone number">Phone Number:</label>
+            <input type="number" id="number" name="number">
+
+            <button type="submit">Submit</button>         
+        </form>
+
+        <h1>Common User Info</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>john.doe@gmail.com</td>
+                    <td>+254 737 404839</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>jane.smith@gmail.com</td>
+                    <td>+1 987 653210</td>
+                </tr>
+                <tr>
+                    <td>Peter Jones</td>
+                    <td>peter.jones@gmail.com</td>
+                    <td>+20 555 123567</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Image</h1>
+
+        <img src="https://images.pexels.com/photos/32435036/pexels-photo-32435036.jpeg" alt="Products" style="width: 600px; height: 800px;">
+        
+        <h1>Links</h1>
+        
+        <p>Want to find out something?</p>
+        <a href="https://google.com">Click here to go to Google</a>
+    </body>
+</html>
